@@ -410,10 +410,9 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  padding-top: 120px;   /* 🔥 FIX FOR CUT TEXT */
   background: white;
-  border-bottom: 2px solid white;
   text-align: center;
 }
 
@@ -422,13 +421,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 0;
-  padding-top: 70px;
+  margin: 0 auto;
+  padding-top: 20px;
   font-size: 48px;
   font-weight: 700;
-  line-height: 56px;
-  width: 100%;          /* ✅ FIX */
-  text-align: center;  /* ✅ add this */
+  line-height: 1.2;
+  width: 100%;
+  text-align: center;
   color: #2d405f;
 }
 #hero h2 {
@@ -438,8 +437,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #2d405f;
 }
 #hero .hero-img {
-  max-width: 60%;
-  margin-top: 20px;
+  max-width: 70%;
+  margin-top: 40px;
 }
 #hero .form{
   padding-top: 10px;
