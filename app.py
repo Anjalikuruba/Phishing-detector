@@ -41,4 +41,6 @@ def predict():
 def usecases():
     return render_template('usecases.html')
 if __name__ == "__main__":
-    app.run(debug=True)
+   app.run(host="0.0.0.0", port=5000)
+
+
