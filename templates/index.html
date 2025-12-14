@@ -5,13 +5,14 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>PhishDetector</title>
+  <title>Malicious Website Classification</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="static/assets/img/newlogo.jpg" rel="icon">
-  <link href="static/assets/img/newlogo.jpg" rel="apple-touch-icon">
+  <link href="static/assets/img/malicious-logo.jpg" rel="icon">
+  <link href="static/assets/img/malicious-logo.jpg" rel="apple-touch-icon">
+
 
   <!-- Vendor CSS Files -->
   <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,9 +33,9 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
       
-      <h1 class="logo mr-auto"><a href="{{ url_for('home') }}">PhishDetector</a></h1>
+      <h1 class="logo mr-auto"><a href="{{ url_for('home') }}">Malicious URL Detector</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="{{ url_for('home') }}" class="logo mr-auto"><img src="static/assets/img/newlogo.jpg" alt="" class="img-fluid"></a>
+      <a href="{{ url_for('home') }}" class="logo mr-auto"><img src="static/assets/img/malicious-logo.jpg" alt="" class="img-fluid"></a>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -72,7 +73,7 @@
   <section id="hero" class="d-flex align-items-center">
 
     <div class="container d-flex flex-column align-items-center justify-content-center" data-aos="fade-up">
-      <h1>FAKE WEBSITE DETECTION</h1>
+      <h1>ROBUST URL SAFETY VERIFICATION</h1>
             <form action="/result" method="POST" role="form" class="form">
         <div class="row no-gutters">
           <div class="col-md-6 form-group pr-md-1">
@@ -92,7 +93,9 @@
           {% endif %}
       </p>
       </form> 
-      <img src="static\assets\img\Phishing.gif" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150"><br><br><br>
+      <img src="static/assets/img/hero.jpg"
+     class="img-fluid hero-img"
+     alt="Malicious URL Detection">
     </div>
     <script>
         
@@ -268,4 +271,5 @@
 </body>
 
 </html>
+
 
