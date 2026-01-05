@@ -413,18 +413,16 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 100vh;
   padding-top: 120px;   /* 🔥 FIX FOR CUT TEXT */
   background: white;
+  padding-bottom:40px
   text-align: center;
 }
 /* HERO VIDEO */
 #hero .hero-video {
-  max-width: 80%;
+  width:80%;
+  max-width: 900px;
   height: auto;
-  margin-top: 40px;
-  border-radius: 12px;
-}
-
-#hero .container {
-  padding-top: 120px;
+  margin-top: 30px;
+  border-radius: 16px;
 }
 
 #hero h1 {
@@ -495,7 +493,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 36px;
     line-height: 42px;
     width: 100%;
-	margin-top: -180px;
+	margin-top: 0;
   }
   #hero h2 {
     font-size: 20px;
