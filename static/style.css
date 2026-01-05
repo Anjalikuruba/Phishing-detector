@@ -443,9 +443,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   color: #2d405f;
 }
-#hero .hero-img {
-  max-width: 70%;
-  margin-top: 40px;
+#hero .hero-video {
+  max-width: 60%;
+  height: auto;
+  margin-top: 20px;
+}
+
 }
 #hero .form{
   padding-top: 10px;
