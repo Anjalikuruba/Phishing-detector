@@ -415,6 +415,13 @@ h1, h2, h3, h4, h5, h6 {
   background: white;
   text-align: center;
 }
+/* HERO VIDEO */
+#hero .hero-video {
+  max-width: 80%;
+  height: auto;
+  margin-top: 40px;
+  border-radius: 12px;
+}
 
 #hero .container {
   padding-top: 120px;
@@ -491,10 +498,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
     line-height: 24px;
   }
-  #hero .hero-img {
-    max-width: 90%;
-	margin-top: 50px;
-  }
+  #hero .hero-video {
+  max-width: 95%;
+  margin-top: 30px;
+}
+
 }
 
 
