@@ -411,24 +411,18 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   min-height: 100vh;
-  padding-top: 120px;
+  padding-top: 120px;   /* 🔥 FIX FOR CUT TEXT */
+  background: white;
+  padding-bottom:40px
   text-align: center;
-  position: relative;
-  overflow: hidden;
 }
-
-/* VIDEO FIX */
-.hero-video {
-  display: block;
-  width: 85%;
+/* HERO VIDEO */
+#hero .hero-video {
+  width:80%;
   max-width: 900px;
-  margin: 40px auto 0 auto;
+  height: auto;
+  margin-top: 30px;
   border-radius: 16px;
-}
-
-/* REMOVE IMAGE RULE EFFECT */
-#hero .hero-img {
-  display: none;
 }
 
 
@@ -1245,3 +1239,24 @@ section {
   font-family: "Krub", sans-serif;
   letter-spacing: 0.5px;
 }
+#hero {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+/* wrapper */
+.hero-media {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* video itself */
+.hero-media video {
+  width: 80%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 16px;
+}
+
