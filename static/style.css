@@ -411,19 +411,26 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   min-height: 100vh;
-  padding-top: 120px;   /* 🔥 FIX FOR CUT TEXT */
-  background: white;
-  padding-bottom:40px
+  padding-top: 120px;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
-/* HERO VIDEO */
-#hero .hero-video {
-  width:80%;
+
+/* VIDEO FIX */
+.hero-video {
+  display: block;
+  width: 85%;
   max-width: 900px;
-  height: auto;
-  margin-top: 30px;
+  margin: 40px auto 0 auto;
   border-radius: 16px;
 }
+
+/* REMOVE IMAGE RULE EFFECT */
+#hero .hero-img {
+  display: none;
+}
+
 
 #hero h1 {
   margin: 0 auto;
@@ -458,7 +465,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0px 15px 2px 15px;
   width: 580px;
   height: 40px;
-  margin: 0 8px;
+  margin: 0;
 }
 
 #hero .form button[type="submit"] {
@@ -484,7 +491,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px 15px 2px 15px;
     width: 300px;
     height: 40px;
-    margin: 0 8px;
+    margin: 0;
   }
 }
 
